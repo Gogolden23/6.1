@@ -1,0 +1,112 @@
+h1 {
+    color: rgba(0, 128, 28, 0.288);
+    margin-left: 10px;
+  }
+  
+  h2 {
+    color: rgb(3, 3, 3);
+    margin-left: 10px;
+  }
+    
+  body {
+     
+      background-color: rgb(212, 247, 16);
+    }
+   p {
+      /* text-align: center; */
+      margin-left: 10px;
+      color: rgb(198, 87, 106);
+      font-size: x-large;
+    }  
+  
+    nav {
+      background-color: black;
+      overflow: hidden; 
+  }
+  
+  nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  nav a:hover {
+      background-color: #dddddd;
+      color: rgb(0, 0, 0);
+  }
+  nav img {
+    float: left;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(68, 128, 0); 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #form {
+      width: 300px;
+      margin: 20vh auto 0 auto;
+      padding: 20px;
+      background-color: rgb(245, 245, 245);
+      border-radius: 4px;
+      font-size: 12px;
+  }
+  
+  #form h1 {
+      color: #0f2027;
+      text-align: center;
+  }
+  
+  #form button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      color: white;
+      background-color: rgb(2, 0, 128);
+      border: none;
+      border-radius: 4px;
+  }
+  
+  .inputcontrol {
+      display: flex;
+      flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .input-control input {
+      border: 2px dotted rgba(21, 143, 116, 0.288);
+      border-radius: 4px;
+      display: block;
+      font-size: 12px;
+      padding: 10px;
+      width: 100%;
+  }
+  
+  .input-control input:focus {
+      outline: 0;
+  }
+  
+  .input-control.correct input {
+      border-color: #09c372;
+  }
+  
+  .input-control.Problem input {
+      border-color: #ff3860;
+  }
+  
+  .input-control .Problem {
+      color: #ff3860;
+      font-size: 9px;
+      height: 13px;
+  }
