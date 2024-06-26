@@ -13,17 +13,7 @@ function validateinputs(){
         } 
 
 
-    //     if(lastname === ''){
-    //         alert ('Info needed');     
-    //     } 
-    //     else if (lastname.length < 1 ){
-    //        ('First and last name to long ')
-        
-    // }
-    // else {
-    //          (lastname)
-    //     }
-
+  
 
         if (zipcode === ''){
             alert ( ' Info needed');
@@ -34,8 +24,11 @@ function validateinputs(){
             else {
             (zipcode)
         }
+        if(zipcode.length = 5 ){
+            alert ('Congrats you completed phase one')
+        }
     };
-
+// Could not get this to work 
 //  const setProblem = (element, message) => {
 //         const inputcontrol = element.parentElement;
 //         const errordisplay = inputcontrol.querySelector('.setProblem');
